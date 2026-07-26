@@ -16,8 +16,9 @@
       <Protocol>
         <Type>SMTP</Type>
         <Server>smtp.gmail.com</Server>
-        <Port>465</Port>
+        <Port>587</Port>
         <SSL>on</SSL>
+        <EncryptionMetric>TLS</EncryptionMetric>
         <AuthRequired>on</AuthRequired>
         <SPA>off</SPA>
         <LoginName>test@datapark.sk</LoginName>
