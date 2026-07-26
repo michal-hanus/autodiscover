@@ -11,7 +11,7 @@
         <LoginName>test@datapark.sk</LoginName>
         <SSL>SSL</SSL>
         <AuthRequired>on</AuthRequired>
-        <SPA>off</SPA>
+          <AuthPackage>OAuth2</AuthPackage>       
       </Protocol>
       <Protocol>
         <Type>SMTP</Type>
@@ -20,7 +20,7 @@
         <LoginName>test@datapark.sk</LoginName>
         <SSL>TLS</SSL>
         <AuthRequired>on</AuthRequired>
-        <SPA>off</SPA>
+        <AuthPackage>OAuth2</AuthPackage>
       </Protocol>
     </Account>
   </Response>
