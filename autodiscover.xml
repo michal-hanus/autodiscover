@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Autodiscover xmlns="http://microsoft.com">
-  <Response xmlns="http://microsoft.com">
+<Autodiscover xmlns="http://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006">
+<Response xmlns="http://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006">
     <Account>
       <AccountType>email</AccountType>
       <Action>settings</Action>
@@ -8,6 +8,7 @@
         <Type>IMAP</Type>
         <Server>imap.gmail.com</Server>
         <Port>993</Port>
+        <LoginName>test@datapark.sk</LoginName>
         <SSL>on</SSL>
         <AuthRequired>on</AuthRequired>
         <SPA>off</SPA>
@@ -15,7 +16,8 @@
       <Protocol>
         <Type>SMTP</Type>
         <Server>smtp.gmail.com</Server>
-        <Port>465</Port>
+        <Port>587</Port>
+        <LoginName>test@datapark.sk</LoginName>
         <SSL>on</SSL>
         <AuthRequired>on</AuthRequired>
         <SPA>off</SPA>
