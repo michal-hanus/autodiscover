@@ -6,7 +6,7 @@
       <Action>settings</Action>
       <Protocol>
         <Type>IMAP</Type>
-        <Server>imap.gmail.com/Server>
+        <Server>imap.gmail.com</Server>
         <Port>993</Port>
         <SSL>on</SSL>
         <AuthRequired>on</AuthRequired>
