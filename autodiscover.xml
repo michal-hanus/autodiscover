@@ -18,7 +18,7 @@
         <Server>smtp.gmail.com</Server>
         <Port>587</Port>
         <LoginName>test@datapark.sk</LoginName>
-        <SSL>SSL</SSL>
+        <SSL>TLS</SSL>
         <AuthRequired>on</AuthRequired>
         <SPA>off</SPA>
       </Protocol>
