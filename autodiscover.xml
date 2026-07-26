@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Autodiscover xmlns="http://microsoft.com">
+  <Response xmlns="http://microsoft.com">
+    <Account>
+      <AccountType>email</AccountType>
+      <Action>settings</Action>
+      <Protocol>
+        <Type>IMAP</Type>
+        <Server>://gmail.com</Server>
+        <Port>993</Port>
+        <SSL>on</SSL>
+        <AuthRequired>on</AuthRequired>
+        <SPA>off</SPA>
+        <LoginName>test@datapark.sk</LoginName>
+      </Protocol>
+      <Protocol>
+        <Type>SMTP</Type>
+        <Server>://gmail.com</Server>
+        <Port>465</Port>
+        <SSL>on</SSL>
+        <AuthRequired>on</AuthRequired>
+        <SPA>off</SPA>
+        <LoginName>test@datapark.sk</LoginName>
+      </Protocol>
+    </Account>
+  </Response>
+</Autodiscover>
